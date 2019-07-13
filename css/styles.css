@@ -1,0 +1,50 @@
+body{
+    opacity:0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s; /* Safari */
+}
+
+h1 {
+  font-size: 128px;
+  font-family: 'Alex Brush', cursive;
+  text-align: center;
+}
+
+#links {
+  display: block;
+  width: 100%;
+  margin-left: 27.5%;
+  margin-top: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+  border-right: 2px solid black;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #42c5f5;
+  text-decoration: none;
+}
+
+#contact {
+  border-right: none;
+}
